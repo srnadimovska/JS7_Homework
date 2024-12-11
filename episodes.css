@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(58, 56, 56);
+    color:aliceblue;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.menu span {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+ .menu span a {
+    text-decoration: none;
+    color: #2b2b2b; 
+    
+ }
+ .menu span a:hover {
+   color: rgb(126, 210, 30);
+   
+ }
+
+.show {
+
+  display: flex;
+  flex-direction: row;
+}
+.show-right {
+  padding: 0px 20px;
+  font-size: 24px;
+}
+
+.genres {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.genre {
+  padding: 5px 25px;
+  height: fit-content;
+  font-size: 16px;
+  border-radius: 25px;
+  background-color: #2b2b2b;
+  text-align: center;
+  box-shadow: 2px 2px 2px gray;
+  color: white;
+}
+
+
+#episodes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.episode {
+    background-color:#2b2b2b;
+    color: aliceblue;
+  display: flex;
+  width: 850px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.episode-img {
+    margin: 20px 20px;
+    
+}
+
+.episode-data {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.episode-title-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.episode-title-div h3 {
+  margin: 0px;
+  font-style: italic;
+}
+
+.episode-rate {
+  display: flex;
+  gap: 12px;
+}

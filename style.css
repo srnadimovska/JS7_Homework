@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(58, 56, 56);
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+    font-size: 100px;
+}
+.search-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 20px;
+}
+#search {
+    width:300px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#search-button {
+    width:300px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#search-button:hover {
+    
+    color:red;
+    transform:translateY(10px);
+    transition: 1s;
+}
+
+
+
+
+
+#tvshows {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+  }
+
+
+
+.show {
+    width: 200px;
+    border-top-right-radius: 20px;
+    position: relative;
+    background-color: #1A1A1A;
+    width: fit-content;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+  }
+  .show .show-img {
+    border-top-right-radius: 20px;
+  }
+  
+  .fa-bookmark {
+    color: orange;
+    opacity: 0.5;
+    font-size: 32px;
+    position: absolute;
+  }
+  
+  .fa-bookmark:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .fa-star {
+    color: gold;
+  }
+  
+  .fa-star:hover {
+    transform: scale(1.08);
+    transform: rotate(15deg);
+    transition: 0.3s;
+  }
+  
+  .show-data {
+    padding: 0px 12px;
+  }
+  
+  .genres {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .genre {
+    padding: 5px 25px;
+    height: fit-content;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #2B2B2B;
+    text-align: center;
+    box-shadow: 2px 2px 2px gray;
+  }
+  
+  .show .links {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }

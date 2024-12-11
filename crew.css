@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(58, 56, 56);
+    color: aliceblue;
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+    font-size: 100px;
+}
+#crew-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+  }
+  
+  .crew-item {
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 20px;
+    background-color: dimgrey;
+    border-radius: 12px;
+    width: fit-content;
+  }
+  
