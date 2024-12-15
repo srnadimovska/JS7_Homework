@@ -3,6 +3,11 @@ const id = new URLSearchParams(window.location.search).get("id");
 const showName = new URLSearchParams(window.location.search).get("name");
 console.log(window.location.href);
 
+const backLink = document.getElementById("back");
+
+backLink.innerHTML = `<span class = previous>Back to ${showName}</span>`;
+backLink.href = `episodes.html?id=${id}`;
+
 document.getElementById("show-title").innerHTML += `${showName}`;
 
 async function getCrew() {

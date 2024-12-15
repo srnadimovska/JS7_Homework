@@ -6,8 +6,9 @@ console.log(window.location.href);
 document.getElementById("show-title").innerHTML += `${showName}`;
 const backLink = document.getElementById("back");
 
-backLink.innerHTML += `${showName}`;
-backLink.href = `show.html?id=${id}`;
+backLink.innerHTML = `<span class = previous>Back to ${showName}</span>`;
+backLink.href = `episodes.html?id=${id}`;
+
 
 async function getCast() {
     const response = await fetch(`https://api.tvmaze.com/shows/${id}/cast`);
@@ -18,6 +19,9 @@ async function getCast() {
 getCast().then((cast )=> {
     populateCast(cast);
 });
+
+
+
 
 function populateCast(cast) {
     const castContainerDiv = document.getElementById("cast-container");

@@ -1,6 +1,8 @@
 body {
-    background-color: rgb(58, 56, 56);
-    color:aliceblue;
+  background-color: #44443b;
+  color: #e6e4e0;
+  margin-top: 20px;
+  font-family:sans-serif; 
 }
 .menu {
     display: flex;
@@ -12,24 +14,35 @@ body {
 }
 
 .menu span {
-    width: 200px;
+    width: 300px;
     height: 50px;
-    background-color: white;
+    background-color:#ec7a1c;
     border-radius: 12px;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
     padding: 10px 10px;
+    box-shadow: 2px 2px 2px #9b806e;
 }
 
  .menu span a {
     text-decoration: none;
-    color: #2b2b2b; 
+    color: #e6e4e0; 
+    
     
  }
  .menu span a:hover {
-   color: rgb(126, 210, 30);
+  color:greenyellow;
+    transition: 2s;
+    cursor: pointer;
+    
    
  }
+ 
+ h1 {
+  color:#90462c;
+  text-align: center;
+  font-size: 100px;
+}
 
 .show {
 
@@ -38,7 +51,7 @@ body {
 }
 .show-right {
   padding: 0px 20px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .genres {
@@ -53,10 +66,10 @@ body {
   height: fit-content;
   font-size: 16px;
   border-radius: 25px;
-  background-color: #2b2b2b;
+  background-color: #db451c;
   text-align: center;
-  box-shadow: 2px 2px 2px gray;
-  color: white;
+  box-shadow: 2px 2px 2px #9b806e;
+  color: #e6e4e0;
 }
 
 
@@ -67,11 +80,11 @@ body {
 }
 
 .episode {
-    background-color:#2b2b2b;
-    color: aliceblue;
+    background-color:#ec7a1c;
+    color: #e6e4e0;
   display: flex;
   width: 850px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: 2px 2px 2px  #9b806e;
   border-radius: 10px;
 }
 .episode-img {
