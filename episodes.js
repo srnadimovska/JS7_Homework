@@ -28,8 +28,11 @@ function populateShow(show) {
   const menu = document.getElementById("menu");
   menu.innerHTML = `
   <div class="menu">
+  <span><a href = "index.html?id=${show.id}&name=${show.name}">HOME</a></span>
   <span><a href = "cast.html?id=${show.id}&name=${show.name}">CAST</a></span>
   <span><a href = "crew.html?id=${show.id}&name=${show.name}">CREW</a></span>
+  <span><a href = "seasons.html?id=${show.id}&name=${show.name}">ALL SEASONS</a></span>
+  
   </div>
   `;
 

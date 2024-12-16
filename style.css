@@ -1,9 +1,44 @@
 body {
-    background-color: rgb(58, 56, 56);
+    background-color: #44443b;
+    color: #e6e4e0;
+    margin-top: 20px;
+    font-family:sans-serif;
 }
 
+#login {
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.login-button {
+    width:300px;
+    height: 50px;
+    border-radius: 15px;
+    
+    
+}
+
+.login-button a {
+  text-decoration: none;
+  color:#e6e4e0;
+  background-color: #ec7a1c;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px #9b806e;
+}
+
+.login-button a:hover{
+  color:greenyellow;
+  transform:scale(1.05);
+    transition: 2s;
+    cursor: pointer;
+}
+
+
 h1 {
-    color:aliceblue;
+    color:#90462c;
     text-align: center;
     font-size: 100px;
 }
@@ -28,10 +63,11 @@ h1 {
 }
 
 #search-button:hover {
-    
-    color:red;
-    transform:translateY(10px);
-    transition: 1s;
+    background-color: #ec7a1c;
+    color:greenyellow;
+    transform:scale(1.05);
+    transition: 2s;
+    cursor: pointer;
 }
 
 
@@ -50,14 +86,15 @@ h1 {
     width: 200px;
     border-top-right-radius: 20px;
     position: relative;
-    background-color: #1A1A1A;
-    width: fit-content;
+    background-color: #ec7e2b;
+    
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     color: white;
   }
   .show .show-img {
     border-top-right-radius: 20px;
+    width: 200px;
   }
   
   .fa-bookmark {
@@ -98,7 +135,7 @@ h1 {
     height: fit-content;
     font-size: 16px;
     border-radius: 25px;
-    background-color: #2B2B2B;
+    background-color: #db451c;
     text-align: center;
     box-shadow: 2px 2px 2px gray;
   }
@@ -107,4 +144,14 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 10px;
+
+  }
+
+  .show .links a {
+    text-decoration: none;
+    color:white;
+  }
+
+  .show .links a:hover {
+    color:greenyellow;
   }
